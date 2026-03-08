@@ -104,6 +104,49 @@ When the runtime allows file writes, the installed skill should write two files 
 
 By default these files should be written next to the main manuscript. If the environment cannot write files, the skill should return the same content in the chat and say that file output was unavailable.
 
+Sample outputs live in [`examples/sample-outputs/`](./examples/sample-outputs/).
+
+## Choosing a Model
+
+The framework is model-agnostic. Claude is the default recommendation because it currently gives the strongest balance of instruction-following and long-context reading for this workflow.
+
+That said, model performance changes fast. Before choosing a model for production use:
+
+1. Check the [benchmark viewer](https://petergpt.github.io/bullshit-benchmark/viewer/index.v2.html) for current rankings. Models with high "Clear Pushback" rates are better at identifying real problems rather than inventing issues.
+2. Prefer models with strong instruction-following and long-context capabilities. Check the benchmark link above for current leaders; specific model names go stale quickly.
+3. Test with your own manuscripts. No benchmark replaces domain-specific evaluation.
+
+Do not treat any model recommendation as permanent.
+
+## Repository Layout
+
+```text
+core/        shared review contract, journal manifest, personas, and modules
+adapters/    runtime-specific source files
+examples/    installation docs, sample manuscripts, and sample outputs
+templates/   packaged Claude and Codex adapter templates
+tests/       contract, installer, and fixture validation
+```
+
+## Why This Exists
+
+This project grew out of Claes Bäckman's econ-focused [AI-research-feedback](https://github.com/claesbackman/AI-research-feedback/tree/main), which uses six parallel agents to review economics papers. I adapted the packaging idea through the later `polisci-review` pattern and reorganized it for political communication and adjacent communication journals around a 9-module review battery with journal-specific personas, stage-aware standards, and a machine-readable issue contract. The aim is a structured review framework for communication research rather than a generic manuscript-commenting prompt.
+
 ## Limitations
 
-This is structured AI review, not editorial authority. It can miss problems, overstate weak ones, lag policy changes, and hallucinate issues. Always verify citations, measurements, claims, and current journal rules before acting on the output.
+This is structured AI review, not editorial guidance from any journal. It can:
+
+- miss obvious problems or overstate weak ones
+- lag behind journal policy changes
+- hallucinate issues that do not exist in the manuscript
+- fail to catch subtle methodological flaws that a human reviewer would spot
+
+Always verify citations, formulas, design claims, and current journal rules before acting on the output. Each report includes a limitations note for that reason.
+
+## Installation Details
+
+See [`examples/installation.md`](./examples/installation.md) for adapter-specific install behavior and overwrite behavior.
+
+## Contact
+
+Suggestions, bug reports, and journal-profile contributions are welcome. Reach Frederik Henriksen at `frmohe@ruc.dk`.

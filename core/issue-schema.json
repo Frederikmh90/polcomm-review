@@ -1,0 +1,52 @@
+{
+  "title": "Political Communication Review Issue",
+  "type": "object",
+  "required": ["journal", "track", "stage", "issues"],
+  "properties": {
+    "journal": {"type": "string"},
+    "track": {"type": "string"},
+    "stage": {"type": "string"},
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "module",
+          "journal_policy_ref",
+          "location",
+          "evidence",
+          "severity",
+          "category",
+          "why_it_matters",
+          "recommended_fix",
+          "confidence"
+        ],
+        "properties": {
+          "module": {"type": "string"},
+          "journal_policy_ref": {"type": "string"},
+          "location": {
+            "type": "object",
+            "required": ["file", "anchor"],
+            "properties": {
+              "file": {"type": "string"},
+              "anchor": {"type": "string"}
+            }
+          },
+          "evidence": {
+            "type": "object",
+            "required": ["status", "basis"],
+            "properties": {
+              "status": {"type": "string"},
+              "basis": {"type": "string"}
+            }
+          },
+          "severity": {"type": "string"},
+          "category": {"type": "string"},
+          "why_it_matters": {"type": "string"},
+          "recommended_fix": {"type": "string"},
+          "confidence": {"type": "string"}
+        }
+      }
+    }
+  }
+}

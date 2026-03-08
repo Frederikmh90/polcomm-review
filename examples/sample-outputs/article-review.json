@@ -1,0 +1,24 @@
+{
+  "journal": "JOC",
+  "track": "quant",
+  "stage": "article",
+  "issues": [
+    {
+      "module": "contribution-literature",
+      "journal_policy_ref": "JOC broad-fit guidance",
+      "location": {
+        "file": "article.tex",
+        "anchor": "Introduction"
+      },
+      "evidence": {
+        "status": "verified inconsistency",
+        "basis": "The introduction claims a broad communication payoff, but the literature review only situates the paper in a narrow campaign-framing debate."
+      },
+      "severity": "major",
+      "category": "fit",
+      "why_it_matters": "A generalist journal needs a clearer broader communication contribution.",
+      "recommended_fix": "State the cross-subfield payoff in the first two pages and connect the framing argument to a broader communication problem.",
+      "confidence": "high"
+    }
+  ]
+}

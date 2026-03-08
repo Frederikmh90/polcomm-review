@@ -1,0 +1,24 @@
+{
+  "journal": "InformationCommunicationSociety",
+  "track": "qual",
+  "stage": "dissertation",
+  "issues": [
+    {
+      "module": "technical-audit",
+      "journal_policy_ref": "InformationCommunicationSociety platform-data transparency guidance",
+      "location": {
+        "file": "dissertation.tex",
+        "anchor": "Methods"
+      },
+      "evidence": {
+        "status": "needs human check",
+        "basis": "The manuscript references an API collection workflow but does not specify rate limits, missingness, or versioning in the excerpt reviewed."
+      },
+      "severity": "minor",
+      "category": "transparency",
+      "why_it_matters": "Digital trace data claims are hard to audit when collection constraints are underspecified.",
+      "recommended_fix": "Document the collection window, access constraints, and known missingness in the data appendix.",
+      "confidence": "medium"
+    }
+  ]
+}

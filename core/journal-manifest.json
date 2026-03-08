@@ -1,0 +1,194 @@
+{
+  "product": {
+    "name": "PolComm Review",
+    "slug": "polcomm-review",
+    "tagline": "Political communication pre-submission audit",
+    "version_scope": "v1",
+    "verified_on": "2026-03-08"
+  },
+  "supported_journals": [
+    "PoliticalCommunication",
+    "JOC",
+    "InformationCommunicationSociety",
+    "CommunicationResearch",
+    "JCMC",
+    "IJPP",
+    "DigitalJournalism",
+    "JournalismStudies",
+    "NewMediaSociety"
+  ],
+  "aliases": {
+    "polcomm": "PoliticalCommunication",
+    "politicalcommunication": "PoliticalCommunication",
+    "political-communication": "PoliticalCommunication",
+    "joc": "JOC",
+    "journalofcommunication": "JOC",
+    "ics": "InformationCommunicationSociety",
+    "informationcommunicationsociety": "InformationCommunicationSociety",
+    "informationcommunicationandsociety": "InformationCommunicationSociety",
+    "information-communication-and-society": "InformationCommunicationSociety",
+    "communicationresearch": "CommunicationResearch",
+    "cr": "CommunicationResearch",
+    "jcmc": "JCMC",
+    "journalofcomputermediatedcommunication": "JCMC",
+    "ijpp": "IJPP",
+    "internationaljournalofpresspolitics": "IJPP",
+    "international-journal-of-press-politics": "IJPP",
+    "presspolitics": "IJPP",
+    "digitaljournalism": "DigitalJournalism",
+    "dj": "DigitalJournalism",
+    "journalismstudies": "JournalismStudies",
+    "js": "JournalismStudies",
+    "newmediasociety": "NewMediaSociety",
+    "new-media-society": "NewMediaSociety",
+    "nms": "NewMediaSociety",
+    "topfield": "top-field",
+    "top-field": "top-field"
+  },
+  "journals": {
+    "PoliticalCommunication": {
+      "display_name": "Political Communication",
+      "segment": "subfield",
+      "persona_role": "Political communication flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Double-anonymous",
+      "anonymization": "Anonymous review is expected; remove identifying information from manuscripts and metadata.",
+      "article_length_guidance": "Journal-specific length and abstract limits were not verified from an accessible Taylor & Francis instruction page on 2026-03-08; keep policy claims conservative.",
+      "abstract_limit": "Not verified from accessible primary source on 2026-03-08.",
+      "data_policy": "No journal-specific repository or data-sharing requirement was verified from an accessible primary source on 2026-03-08.",
+      "ai_policy": "Taylor & Francis publisher-level AI disclosure guidance applies, but no stronger Political Communication-specific rule was verified from an accessible primary source on 2026-03-08.",
+      "evidence_note": "Publicly accessible evidence was limited to the Taylor & Francis journal surface on 2026-03-08, so keep Political Communication policy claims conservative beyond general anonymized review expectations.",
+      "source_urls": [
+        "https://www.tandfonline.com/journals/upcp20"
+      ]
+    },
+    "JOC": {
+      "display_name": "Journal of Communication",
+      "segment": "generalist",
+      "persona_role": "Broad communication flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Double-anonymous",
+      "anonymization": "Anonymous review is expected under current publisher workflows.",
+      "article_length_guidance": "The main document should not exceed 35 pages including abstract, text, references, tables, figures, and endnotes.",
+      "abstract_limit": "150 words",
+      "data_policy": "Follow verified Oxford open-science and data-sharing guidance when present; otherwise avoid hard repository claims.",
+      "ai_policy": "Oxford author policy requires disclosure of material AI use and disallows AI authorship claims.",
+      "evidence_note": "Policy surface is strong on anonymous review workflow, the 35-page main-document cap, and the 150-word abstract requirement.",
+      "source_urls": [
+        "https://academic.oup.com/joc/pages/General_Instructions"
+      ]
+    },
+    "InformationCommunicationSociety": {
+      "display_name": "Information, Communication & Society",
+      "segment": "generalist",
+      "persona_role": "Digital society and communication generalist",
+      "verified_on": "2026-03-08",
+      "review_model": "Double-anonymous",
+      "anonymization": "Use anonymous-review defaults and remove identifying content before submission.",
+      "article_length_guidance": "Journal-specific length and abstract limits were not verified from an accessible Taylor & Francis instruction page on 2026-03-08; keep policy claims conservative.",
+      "abstract_limit": "Not verified from accessible primary source on 2026-03-08.",
+      "data_policy": "No journal-specific repository mandate was verified from an accessible primary source on 2026-03-08; state platform-data access limits and sharing constraints explicitly.",
+      "ai_policy": "Taylor & Francis publisher-level AI disclosure guidance applies, but no stronger Information, Communication & Society-specific rule was verified from an accessible primary source on 2026-03-08.",
+      "evidence_note": "Publicly accessible evidence was limited to the Taylor & Francis journal surface on 2026-03-08, so use strong substantive fit guidance but conservative policy claims.",
+      "source_urls": [
+        "https://www.tandfonline.com/journals/rics20"
+      ]
+    },
+    "CommunicationResearch": {
+      "display_name": "Communication Research",
+      "segment": "generalist",
+      "persona_role": "Empirical communication research flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Anonymous review",
+      "anonymization": "Prepare the manuscript for blinded review using current SAGE instructions.",
+      "article_length_guidance": "Use current SAGE author instructions for article-length and submission-format requirements.",
+      "abstract_limit": "Not verified from accessible primary source on 2026-03-08.",
+      "data_policy": "Follow explicit SAGE policy only; do not infer journal-specific replication mandates when unavailable.",
+      "ai_policy": "SAGE guidance requires disclosure of generative-AI assistance and does not permit AI authorship.",
+      "evidence_note": "Use for theory-led empirical communication papers with strong measurement and design discipline.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/CRX"
+      ]
+    },
+    "JCMC": {
+      "display_name": "Journal of Computer-Mediated Communication",
+      "segment": "generalist",
+      "persona_role": "Digital communication flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Double-anonymous",
+      "anonymization": "Anonymous review is expected under current Oxford workflows.",
+      "article_length_guidance": "Manuscripts should be under 10,000 words including abstract, references, tables, figures, appendices, and endnotes.",
+      "abstract_limit": "250 words",
+      "data_policy": "Published articles require a Data Availability Statement that explains whether data, code, and materials are publicly available and why not when access is restricted.",
+      "ai_policy": "Oxford AI disclosure guidance applies to material use of generative systems.",
+      "evidence_note": "Policy surface is strong on anonymous review workflow, the 10,000-word cap, the 250-word abstract requirement, and the Data Availability Statement requirement.",
+      "source_urls": [
+        "https://academic.oup.com/jcmc/pages/General_Instructions"
+      ]
+    },
+    "IJPP": {
+      "display_name": "The International Journal of Press/Politics",
+      "segment": "subfield",
+      "persona_role": "Press and politics flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Anonymous review",
+      "anonymization": "Prepare the manuscript for blinded review following current SAGE instructions.",
+      "article_length_guidance": "No universal article cap was verified from the accessible official page on 2026-03-08, but submissions must include an estimated word count on the front cover sheet.",
+      "abstract_limit": "250 words",
+      "data_policy": "Do not invent replication rules beyond what the accessible author instructions state.",
+      "ai_policy": "SAGE disclosure policy applies to material AI assistance and bars AI authorship.",
+      "evidence_note": "Policy surface is strong on the 250-word abstract cap and front-cover-sheet submission requirements, but not on a verified journal-wide word limit.",
+      "source_urls": [
+        "https://us.sagepub.com/en-us/nam/the-international-journal-of-presspolitics/journal201283"
+      ]
+    },
+    "DigitalJournalism": {
+      "display_name": "Digital Journalism",
+      "segment": "subfield",
+      "persona_role": "Digital journalism flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Double-anonymous",
+      "anonymization": "Use anonymous-review defaults under Taylor & Francis submission instructions.",
+      "article_length_guidance": "The journal page currently lists original articles at 7,000 to 9,000 words, conceptual articles at 4,000 words excluding references, review articles at 8,000 to 12,000 words, and advancing methods articles at 4,000 words excluding references.",
+      "abstract_limit": "Not verified from accessible primary source on 2026-03-08.",
+      "data_policy": "State platform access limits, scraping constraints, and reproducibility tradeoffs explicitly; do not infer a journal-specific repository mandate.",
+      "ai_policy": "Taylor & Francis AI disclosure guidance applies when relevant.",
+      "evidence_note": "Publicly accessible evidence verifies anonymised refereeing and article-type word ranges, but not a journal-specific abstract cap from an accessible instruction page on 2026-03-08.",
+      "source_urls": [
+        "https://www.tandfonline.com/journals/rdij20"
+      ]
+    },
+    "JournalismStudies": {
+      "display_name": "Journalism Studies",
+      "segment": "subfield",
+      "persona_role": "Journalism studies generalist",
+      "verified_on": "2026-03-08",
+      "review_model": "Double-anonymous",
+      "anonymization": "Use anonymous-review defaults under Taylor & Francis submission workflows.",
+      "article_length_guidance": "Journal-specific length and abstract limits were not verified from an accessible Taylor & Francis instruction page on 2026-03-08; keep policy claims conservative.",
+      "abstract_limit": "Not verified from accessible primary source on 2026-03-08.",
+      "data_policy": "No journal-specific repository rule was verified from an accessible primary source on 2026-03-08.",
+      "ai_policy": "Taylor & Francis publisher-level AI disclosure guidance applies, but no stronger Journalism Studies-specific rule was verified from an accessible primary source on 2026-03-08.",
+      "evidence_note": "Publicly accessible evidence was limited to the Taylor & Francis journal surface on 2026-03-08, so rely on strong fit guidance but conservative policy claims.",
+      "source_urls": [
+        "https://www.tandfonline.com/journals/rjos20"
+      ]
+    },
+    "NewMediaSociety": {
+      "display_name": "New Media & Society",
+      "segment": "generalist",
+      "persona_role": "New media and society flagship",
+      "verified_on": "2026-03-08",
+      "review_model": "Strictly anonymous peer review",
+      "anonymization": "Prepare the manuscript for strict anonymous review under current journal guidance.",
+      "article_length_guidance": "Target word count is 8,000 words including notes, references, tables, and charts.",
+      "abstract_limit": "100 to 150 words",
+      "data_policy": "Be explicit about platform-data provenance, access restrictions, and code availability, but avoid claiming a journal-specific repository rule without current primary-source support.",
+      "ai_policy": "SAGE generative-AI disclosure guidance applies and AI tools cannot be listed as authors.",
+      "evidence_note": "Policy surface is strong on strict anonymous review, the 8,000-word target length, and the 100 to 150 word abstract requirement.",
+      "source_urls": [
+        "https://us.sagepub.com/en-us/nam/journal/new-media-society"
+      ]
+    }
+  }
+}

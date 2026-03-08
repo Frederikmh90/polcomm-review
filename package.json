@@ -1,0 +1,39 @@
+{
+  "name": "polcomm-review",
+  "version": "0.1.0",
+  "description": "LLM-agnostic political communication manuscript review framework with Claude and Codex adapters.",
+  "type": "module",
+  "bin": {
+    "polcomm-review": "bin/polcomm-review.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "core/",
+    "templates/",
+    "README.md",
+    "LICENSE",
+    "examples/installation.md",
+    "examples/sample-outputs/"
+  ],
+  "scripts": {
+    "test": "node tests/node/installer.test.mjs",
+    "test:all": "npm test && python -m unittest discover -s tests -v",
+    "doctor": "node ./bin/polcomm-review.js doctor",
+    "prepack": "node ./src/prepack.js"
+  },
+  "keywords": [
+    "political-communication",
+    "communication",
+    "manuscript-review",
+    "research-feedback",
+    "journal-fit",
+    "claude",
+    "codex",
+    "llm"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18"
+  }
+}

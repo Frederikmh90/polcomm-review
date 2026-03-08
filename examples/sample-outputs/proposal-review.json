@@ -1,0 +1,24 @@
+{
+  "journal": "PoliticalCommunication",
+  "track": "methods",
+  "stage": "proposal",
+  "issues": [
+    {
+      "module": "design-identification",
+      "journal_policy_ref": "PoliticalCommunication proposal-stage design guidance",
+      "location": {
+        "file": "proposal.tex",
+        "anchor": "Research Design"
+      },
+      "evidence": {
+        "status": "inferred absence",
+        "basis": "The proposal names a panel design but does not yet explain attrition handling or treatment timing."
+      },
+      "severity": "major",
+      "category": "design",
+      "why_it_matters": "The credibility of the planned inference depends on whether attrition and timing are addressed before data collection.",
+      "recommended_fix": "Add a short subsection on panel attrition, treatment timing, and the minimum estimand the design can support.",
+      "confidence": "medium"
+    }
+  ]
+}

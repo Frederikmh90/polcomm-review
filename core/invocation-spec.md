@@ -18,7 +18,7 @@ polcomm-review [JOURNAL] [TRACK] [STAGE] [PATH]
 ## Supported Journals
 
 - `PoliticalCommunication`
-- `JOC`
+- `JournalOfCommunication`
 - `InformationCommunicationSociety`
 - `CommunicationResearch`
 - `JCMC`

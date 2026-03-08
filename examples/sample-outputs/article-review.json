@@ -1,11 +1,11 @@
 {
-  "journal": "JOC",
+  "journal": "JournalOfCommunication",
   "track": "quant",
   "stage": "article",
   "issues": [
     {
       "module": "contribution-literature",
-      "journal_policy_ref": "JOC broad-fit guidance",
+      "journal_policy_ref": "JournalOfCommunication broad-fit guidance",
       "location": {
         "file": "article.tex",
         "anchor": "Introduction"

@@ -2,7 +2,7 @@
 
 ## Metadata
 
-- Journal: JOC
+- Journal: JournalOfCommunication
 - Track: quant
 - Stage: article
 - Manuscript: article.tex
@@ -47,7 +47,7 @@ Data and code availability plans should be stated before submission.
 
 ## 9. Journal Fit and Reviewer #2 Assessment
 
-JOC is plausible if the paper makes its broader communication payoff explicit.
+Journal of Communication is plausible if the paper makes its broader communication payoff explicit.
 
 ## AI Review Limitations
 

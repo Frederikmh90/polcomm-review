@@ -12,8 +12,8 @@ from core.review_contract import detect_stage, load_issue_schema, load_journal_m
 
 class ReviewContractTests(unittest.TestCase):
     def test_parse_full_invocation(self) -> None:
-        target = parse_invocation('JOC quant article "papers/my paper.tex"')
-        self.assertEqual(target.journal, "JOC")
+        target = parse_invocation('JournalOfCommunication quant article "papers/my paper.tex"')
+        self.assertEqual(target.journal, "JournalOfCommunication")
         self.assertEqual(target.track, "quant")
         self.assertEqual(target.stage, "article")
         self.assertEqual(target.path, "papers/my paper.tex")
@@ -21,7 +21,7 @@ class ReviewContractTests(unittest.TestCase):
     def test_parse_supported_journals(self) -> None:
         for journal in (
             "PoliticalCommunication",
-            "JOC",
+            "JournalOfCommunication",
             "InformationCommunicationSociety",
             "CommunicationResearch",
             "JCMC",

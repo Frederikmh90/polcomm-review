@@ -25,7 +25,7 @@ Every issue includes a module label, location anchor, evidence status, journal-p
 | Journal | Role |
 |---------|------|
 | `PoliticalCommunication` | Political communication flagship |
-| `JOC` | Broad communication flagship |
+| `JournalOfCommunication` | Broad communication flagship |
 | `InformationCommunicationSociety` | Digital society and communication generalist |
 | `CommunicationResearch` | Empirical communication research flagship |
 | `JCMC` | Digital communication flagship |
@@ -81,7 +81,7 @@ polcomm-review [JOURNAL] [TRACK] [STAGE] [PATH]
 Examples:
 
 ```text
-polcomm-review JOC quant article manuscript.tex
+polcomm-review JournalOfCommunication quant article manuscript.tex
 polcomm-review PoliticalCommunication qual dissertation.tex
 polcomm-review manuscript.tex
 ```

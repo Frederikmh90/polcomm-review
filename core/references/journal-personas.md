@@ -18,7 +18,7 @@ Read this alongside [`../journal-manifest.json`](../journal-manifest.json).
 - methods expectations: any method is acceptable if it advances a real political-communication question
 - common desk-reject reasons: generic media paper with no politics payoff, overclaimed causal language, thin democratic relevance
 
-## JOC
+## JournalOfCommunication
 
 - contribution threshold: broad communication significance
 - theory expectations: clear theoretical framing with cross-subfield interest

@@ -8,7 +8,7 @@
   },
   "supported_journals": [
     "PoliticalCommunication",
-    "JOC",
+    "JournalOfCommunication",
     "InformationCommunicationSociety",
     "CommunicationResearch",
     "JCMC",
@@ -18,32 +18,25 @@
     "NewMediaSociety"
   ],
   "aliases": {
-    "polcomm": "PoliticalCommunication",
     "politicalcommunication": "PoliticalCommunication",
-    "political-communication": "PoliticalCommunication",
-    "joc": "JOC",
-    "journalofcommunication": "JOC",
+    "polcomm": "PoliticalCommunication",
+    "journalofcommunication": "JournalOfCommunication",
+    "joc": "JournalOfCommunication",
     "ics": "InformationCommunicationSociety",
-    "informationcommunicationsociety": "InformationCommunicationSociety",
     "informationcommunicationandsociety": "InformationCommunicationSociety",
-    "information-communication-and-society": "InformationCommunicationSociety",
     "communicationresearch": "CommunicationResearch",
     "cr": "CommunicationResearch",
-    "jcmc": "JCMC",
     "journalofcomputermediatedcommunication": "JCMC",
-    "ijpp": "IJPP",
+    "jcmc": "JCMC",
     "internationaljournalofpresspolitics": "IJPP",
-    "international-journal-of-press-politics": "IJPP",
-    "presspolitics": "IJPP",
+    "ijpp": "IJPP",
     "digitaljournalism": "DigitalJournalism",
     "dj": "DigitalJournalism",
     "journalismstudies": "JournalismStudies",
     "js": "JournalismStudies",
     "newmediasociety": "NewMediaSociety",
-    "new-media-society": "NewMediaSociety",
     "nms": "NewMediaSociety",
-    "topfield": "top-field",
-    "top-field": "top-field"
+    "topfield": "top-field"
   },
   "journals": {
     "PoliticalCommunication": {
@@ -62,7 +55,7 @@
         "https://www.tandfonline.com/journals/upcp20"
       ]
     },
-    "JOC": {
+    "JournalOfCommunication": {
       "display_name": "Journal of Communication",
       "segment": "generalist",
       "persona_role": "Broad communication flagship",

@@ -12,7 +12,7 @@ When no journal is specified, use a leading communication-field standard without
 - Raise the bar on campaign, public-opinion, and democratic-process framing.
 - Keep formal policy claims conservative because the publicly accessible Taylor & Francis surface is thinner than the Oxford and SAGE entries.
 
-## JOC
+## JournalOfCommunication
 
 - Expect broad communication relevance and clean framing for a wide communication readership.
 - Remember the verified 35-page main-document cap and the 150-word abstract limit.

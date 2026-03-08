@@ -130,7 +130,7 @@ tests/       contract, installer, and fixture validation
 
 ## Why This Exists
 
-This project grew out of Claes Bäckman's econ-focused [AI-research-feedback](https://github.com/claesbackman/AI-research-feedback/tree/main), which uses six parallel agents to review economics papers. I adapted the packaging idea through the later `polisci-review` pattern and reorganized it for political communication and adjacent communication journals around a 9-module review battery with journal-specific personas, stage-aware standards, and a machine-readable issue contract. The aim is a structured review framework for communication research rather than a generic manuscript-commenting prompt.
+This project builds on two prior inspirations. First, Claes Bäckman's econ-focused [AI-research-feedback](https://github.com/claesbackman/AI-research-feedback/tree/main) introduced the idea of structured AI manuscript review with parallel review agents. Second, Cem Mert Dalli's [`polisci-review`](https://github.com/cmertdalli/polisci-review) translated that idea into a journal-aware, packaged skill structure for political science. `polcomm-review` adapts that architecture for political communication and adjacent communication journals, using a 9-module review battery, journal-specific personas, stage-aware standards, and a machine-readable issue contract. The aim is a structured review framework for communication research rather than a generic manuscript-commenting prompt.
 
 ## Limitations
 
